@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>MSG-2026-1011-0081</MsgId>
+            <CreDtTm>2026-10-11T14:30:00</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+            </SttlmInf>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>E2E-NXD-20261011-9988</EndToEndId>
+                <TxId>TX-9876543210</TxId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="EUR">450000.00</IntrBkSttlmAmt>
+            <Dbtr>
+                <Nm>Global Trade Solutions Inc.</Nm>
+            </Dbtr>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>BNPAFRPPXXX</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>DEUTDEDDXXX</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>Continental Industrial Parts AG</Nm>
+            </Cdtr>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+</Document>
